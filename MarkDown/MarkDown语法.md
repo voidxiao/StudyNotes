@@ -1,4 +1,4 @@
-# MarkDown
+# MarkDown语法
 
 ## 1. 标题
 - \# 后接标题
@@ -36,26 +36,26 @@
 
 
 ## 4. **链接**
-- 内嵌式链接  
+- 内嵌式链接
 
-  1\. 外部链接  
+  1\. 外部链接
 
-     [百度](http://www.baidu.com "打开百度")  
+     [百度](http://www.baidu.com "打开百度")
 
       [百度](http://www.baidu.com "打开百度")
 
   2\.内部链接
 
-     [MarkDown](MarkDown语法.md#MarkDown "回到MarkDown")  
+     [MarkDown](MarkDown语法.md#MarkDown "回到MarkDown")
 
 	  [MarkDown](MarkDown语法.md#MarkDown "回到MarkDown")
 
-- 引用式链接  
+- 引用式链接
 
-  1\. 外部链接  
+  1\. 外部链接
      [百度]
 
-  2\. 内部链接  
+  2\. 内部链接
   [MarkDown]
 
 <!---    链接     -->
@@ -68,21 +68,21 @@
 
 ## 5. **图片**
 - 内嵌式
-  - 外部图片  
+  - 外部图片
   ![img](https://www.baidu.com/img/bd_logo1.png?where=super "百度图标")
   ```
   ![img](https://www.baidu.com/img/bd_logo1.png?where=super "百度图标")
   ```
-  - 内部图片  
+  - 内部图片
   `![img](文件相对路径 "图片描述")`
 
 - 引用式
-  - 外部图片  
+  - 外部图片
   ![img]
   ```
   ![img]
   ```
-  - 内部图片  
+  - 内部图片
   ``![内部]``
 
 ```
@@ -94,7 +94,31 @@
 <!--- 引用式图片 --->
   [img]: https://www.baidu.com/img/bd_logo1.png?where=super "百度图标"
 
+## 6. 引用
+- >引用符号 \>
+- >>>多重引用 \>>>
 
+## 7. 插入代码
+- 在这插入`CODE`代码 符号\`
+```
+文字 `CODE` 文字
+```
+- 代码块 符号\```
+```
+    ```
+    CODE 上下两行```包裹
+    ```
+```
+- 设置语法高亮显示
+  - 只能代码块使用
+    - 在上端\```后面加上所用的语言
+
+demo:
+```
+    ``` 语法高亮语言
+    CODE
+    ```
+```
 
 
 
