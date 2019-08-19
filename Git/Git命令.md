@@ -22,19 +22,19 @@
 - 提交到本地版本控制,-m后加"说明"
 
 ## git commit -a -m
-- -a直接把文件提交到本地版本控制,不需要添加到暂存区
+- -a直接把文件提交到本地版本控制,不用add
 
 ## git remote
-- 将本地版本控制上传至远程版本控制
+- 查看关联的远程仓库的名称
 
 ## git remote add \<url\> master
-- 本地版本控制关联远程版本控制,master指主分支
+- 本地仓库关联远程仓库,master指主分支
 
 ## git remote add origin \<url\> master
-- 相当于给url起别名,master指主分支
+- 相当于给url起别名,并关联远程仓库,master指主分支
 
 ## git remote --v
-- 列出关联的远程仓库
+- 列出关联的远程仓库的详细信息
 
 ## git pull
 - 把远程仓库拉到本地仓库,前提是本地有仓库
@@ -44,3 +44,9 @@
 
 ## git push
 - 将本地仓库推送到远程仓库
+
+## git reset --hard \<ID\>
+- 当已经提交远程仓库,回退版本到ID
+
+## git push origin --force
+- 回退版本后重新提交远程仓库
